@@ -1,0 +1,29 @@
+"""
+Configuration template for Streamlit secrets
+Copy this to .streamlit/secrets.toml in your project directory
+"""
+
+# .streamlit/secrets.toml
+
+# FRED API Key (Free from https://fred.stlouisfed.org/docs/api/api_key.html)
+FRED_API_KEY = "your_fred_api_key_here"
+
+# Alpha Vantage API Key (Free from https://www.alphavantage.co/support/#api-key)
+ALPHA_VANTAGE_KEY = "your_alpha_vantage_key_here"
+
+# Anthropic Claude API Key (from https://console.anthropic.com/)
+ANTHROPIC_API_KEY = "your_anthropic_api_key_here"
+
+# ICI API Key (Investment Company Institute - requires subscription)
+ICI_API_KEY = "your_ici_api_key_here"
+
+# Email Configuration (for weekly alerts)
+SENDER_EMAIL = "your_email@gmail.com"
+SENDER_PASSWORD = "your_app_password"  # Use app-specific password for Gmail
+
+# Database Configuration (optional)
+DATABASE_URL = "postgresql://user:password@localhost/marketdb"
+
+# Cache Settings
+CACHE_EXPIRY_HOURS = 24
+MAX_CACHE_SIZE_MB = 100
